@@ -1,7 +1,10 @@
-function Range(){
+function Range(value){
+ var result = [];
  
-
- return [1, 2, 3];
+ for (var i = 0; i < value; i++) {
+  result.push(i);
+ }
+ return result;
 }
 
 module.exports=Range
